@@ -1,0 +1,11 @@
+.container {
+    background-color: #fff;
+    color: black;
+    border: 1px solid black;
+    padding: 16px;
+    width: 300px;
+}
+
+.heading {
+    font-size: 40px;
+}
