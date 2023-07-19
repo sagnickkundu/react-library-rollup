@@ -8,7 +8,8 @@
   "scripts": {
     "build": "rollup -c",
     "lint": "eslint '*/**/*.{js,ts,tsx}' --quiet",
-    "example": "yarn --cwd ./example dev"
+    "example": "yarn --cwd ./example dev",
+    "prepare": "husky install"
   },
   "files": [
     "build"
@@ -54,13 +55,8 @@
   ],
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "yarn lint"
     }
-  },
-  "lint-staged": {
-    "*.{js,ts,tsx}": [
-      "eslint --fix"
-    ]
   },
   "keywords": [],
   "author": "",
