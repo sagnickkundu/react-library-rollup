@@ -10,7 +10,7 @@
     "test": "jest",
     "lint": "eslint '*/**/*.{js,ts,tsx}' --quiet",
     "lint:fix": "eslint '*/**/*.{js,ts,tsx}' --quiet --cache --fix",
-    "example": "yarn --cwd ./example dev",
+    "example": "yarn --cwd ./example && yarn --cwd ./example dev",
     "clean": "rimraf build && rimraf .eslintcache && rimraf jest",
     "prepare": "husky install"
   },
