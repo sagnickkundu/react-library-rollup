@@ -72,7 +72,6 @@ android/keystores/debug.keystore
 build/
 
 # example folder
-folder_to_ignore/
 .yalc
 yalc.lock
 #Jest
